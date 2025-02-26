@@ -228,6 +228,12 @@ int main()
     return 0;
 }
 
+How to Run: flex exp1b.l
+            gcc lex.yy.c
+            ./a
+
+
+
                          EXP 2:
 %{
 %}
@@ -293,6 +299,12 @@ int main() {
 int yywrap() {
     return 1;
 }
+
+How to Run: flex exp2.l
+            gcc lex.yy.c
+            ./a or a
+
+
 
              EXP 3:
 
